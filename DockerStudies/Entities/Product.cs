@@ -1,7 +1,7 @@
 ﻿using MongoDB.Bson;
 using MongoDB.Bson.Serialization.Attributes;
 
-namespace ProductAPI.Entities
+namespace DockerStudies.API.Entities
 {
     public class Product
     {
