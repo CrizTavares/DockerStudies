@@ -1,0 +1,12 @@
+services:
+  dockerstudies.api:
+    image: ${DOCKER_REGISTRY-}dockerstudiesapi
+    build:
+      context: .
+      dockerfile: DockerStudies/Dockerfile
+
+  catalogdb:
+    image: mongo
+
+volumes:
+  mongo_data:
